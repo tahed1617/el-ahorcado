@@ -1,0 +1,19 @@
+button {
+    font-size: 10px;
+    line-height: 22.5px;
+    text-align: center;
+    width: 50px;
+    height: 25px;
+}
+
+.container-button {
+    text-align: center;
+    margin: 10px;
+}
+
+.letra-oculta {
+    font-size: 50px;
+    margin: 5px 10px;
+    background-color: #DAF7A6; 
+    padding: 0px 10px
+}
