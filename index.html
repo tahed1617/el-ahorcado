@@ -1,51 +1,58 @@
 <html>
 	<head>
 		<title>Juego del Ahorcado</title>
-	</head>
+	
         <link rel="stylesheet" href="css/style.css">
-	<body>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    </head> 
+    <body>
         <h1 class="container-button">Juego del ahorcado</h1>
         <div class="container-button">
-            <button>A</button>
-            <button>B</button>
-            <button>C</button>
-            <button>D</button>
-            <button>E</button>
-            <button>F</button>
-            <button>G</button>
+            <button class="abecedario" onclick="estadoBoton(this)">A</button>
+            <button class="abecedario" onclick="estadoBoton(this)">B</button>
+            <button class="abecedario" onclick="estadoBoton(this)">C</button>
+            <button class="abecedario" onclick="estadoBoton(this)">D</button>
+            <button class="abecedario" onclick="estadoBoton(this)">E</button>
+            <button class="abecedario" onclick="estadoBoton(this)">F</button>
+            <button class="abecedario" onclick="estadoBoton(this)">G</button>
         </div>
         <div class="container-button">
-            <button>H</button>
-            <button>I</button>
-            <button>J</button>
-            <button>K</button>
-            <button>L</button>
-            <button>M</button>
-            <button>N</button>
+            <button class="abecedario" onclick="estadoBoton(this)">H</button>
+            <button class="abecedario" onclick="estadoBoton(this)">I</button>
+            <button class="abecedario" onclick="estadoBoton(this)">J</button>
+            <button class="abecedario" onclick="estadoBoton(this)">K</button>
+            <button class="abecedario" onclick="estadoBoton(this)">L</button>
+            <button class="abecedario" onclick="estadoBoton(this)">M</button>
+            <button class="abecedario" onclick="estadoBoton(this)">N</button>
         </div>
         <div class="container-button">
-            <button>Ñ</button>
-            <button>O</button>
-            <button>P</button>
-            <button>Q</button>
-            <button>R</button>
-            <button>S</button>
-            <button>T</button>
+            <button class="abecedario" onclick="estadoBoton(this)">Ñ</button>
+            <button class="abecedario" onclick="estadoBoton(this)">O</button>
+            <button class="abecedario" onclick="estadoBoton(this)">P</button>
+            <button class="abecedario" onclick="estadoBoton(this)">Q</button>
+            <button class="abecedario" onclick="estadoBoton(this)">R</button>
+            <button class="abecedario" onclick="estadoBoton(this)">S</button>
+            <button class="abecedario" onclick="estadoBoton(this)">T</button>
         </div>
         <div class="container-button">
-            <button>U</button>
-            <button>V</button>
-            <button>W</button>
-            <button>X</button>
-            <button>Y</button>
-            <button>Z</button>
+            <button class="abecedario" onclick="estadoBoton(this)">U</button>
+            <button class="abecedario" onclick="estadoBoton(this)">V</button>
+            <button class="abecedario" onclick="estadoBoton(this)">W</button>
+            <button class="abecedario" onclick="estadoBoton(this)">X</button>
+            <button class="abecedario" onclick="estadoBoton(this)">Y</button>
+            <button class="abecedario" onclick="estadoBoton(this)">Z</button>
         </div>
         <div class="container-button">
             <input id="palabra-adivinar" type="text"> 
             <button id="boton-jugar">Jugar</button>
         </div>
         <div id="palabra-oculta" class="container-button">
-            
+        </div>
+        <div class="container-button img-div">
+        </div>
+        <div class="alert alert-primary" role="alert">
+            A simple primary alert—check it out!
         </div>
         <script src="js/main.js"></script>
 	</body>
