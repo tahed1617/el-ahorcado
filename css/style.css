@@ -15,5 +15,27 @@ button {
     font-size: 50px;
     margin: 5px 10px;
     background-color: #DAF7A6; 
-    padding: 0px 10px
+    padding: 0px 10px;
+}
+
+.img-div-1 {
+    background-image: url('../img/el-ahorcado.jpg');
+    background-position: 600px 0px; /* Visible coordinates in image */
+    height: 200px; /* Visible height */
+    width: 200px; /* Visible width */
+}
+.img-div-2 {
+    background-position: 400px 0px; /* Visible coordinates in image */
+}
+.img-div-3 {
+    background-position: 200px 0px; /* Visible coordinates in image */
+}
+.img-div-4 {
+    background-position: 600px -600px; /* Visible coordinates in image */
+}
+.img-div-5 {
+    background-position: 400px -600px; /* Visible coordinates in image */
+}
+.img-div-6 {
+    background-position: 200px -600px; /* Visible coordinates in image */
 }
